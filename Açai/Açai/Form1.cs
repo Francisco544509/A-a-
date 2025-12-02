@@ -45,7 +45,7 @@ namespace Açai
             else if (rb300ml.Checked) { pedido.AppendLine("\nTamanho: 300ml - R$ 12,00"); valorPedido += 12.00m; }
             else if (rb500ml.Checked) { pedido.AppendLine("\nTamanho: 500ml - R$ 15,00"); valorPedido += 15.00m; }
             else if (rb700ml.Checked) { pedido.AppendLine("\nTamanho: 700ml - R$ 18,00"); valorPedido += 18.00m; }
-            else if (rb1L.Checked) { pedido.AppendLine("\nTamanho: 1L - R$ 8,05"); valorPedido += 22.00m; }
+            else if (rb1L.Checked) { pedido.AppendLine("\nTamanho: 1L - R$ 22,00"); valorPedido += 22.00m; }
             else if (rbBarcaP.Checked) { pedido.AppendLine("\nTamanho: Barca P - R$ 27,00"); valorPedido += 27.00m; }
             else if (rbBarcaM.Checked) { pedido.AppendLine("\nTamanho: Barca M - R$ 32,00"); valorPedido += 32.00m; }
             else if (rbBarcaG.Checked) { pedido.AppendLine("\nTamanho: Barca G - R$ 37,00"); valorPedido += 37.00m; }
